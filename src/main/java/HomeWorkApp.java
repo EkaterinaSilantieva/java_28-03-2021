@@ -50,12 +50,12 @@ public class HomeWorkApp {
      public static  void compareNumbers() {
         int a = 20;
         int b =40;
+         if (a >= b) {
+             out.println("a>=b");
+         }else {
+             if (a < b) {
+                 out.println("a < b");
 
-        if (a >= b) {
-            out.println("a>=b");
-        }else {
-            if (a < b) {
-                out.println("a < b");
             }
         }
      }
